@@ -1,0 +1,346 @@
+$green: #34c759;
+$navy: #000080;
+$orange: #ffa500;
+$yellow: #ffd700;
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	font-weight: 400;
+	// color: $navy;
+	color: #222;
+	font-family: 'Dela Gothic One', sans-serif;
+	font-style: normal;
+	max-width: 430px;
+}
+
+a {
+	color: $navy;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+header {
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 75px;
+	background: #fff;
+	max-width: 430px;
+}
+
+.mv-section {
+	padding-top: 75px;
+}
+
+.title {
+	a {
+		display: inline-block;
+		font-size: 17px;
+		color: #fff;
+		text-shadow: 1px 1px 1px $green, -1px 1px 1px $green, 1px -1px 1px $green,
+			-1px -1px 1px $green, 1px 0 1px $green, 0 1px 1px $green,
+			-1px 0 1px $green, 0 -1px 1px $green;
+	}
+}
+
+.sub-title {
+	font-size: 11px;
+}
+
+.tel-icon {
+	width: 17px;
+}
+
+.time {
+	font-size: 12px;
+}
+
+.bg-green {
+	background: rgb(52 199 89 / 10%);
+}
+
+.ue {
+	margin-top: -2rem;
+}
+
+.bg-gray {
+	background: rgb(192 192 192 / 10%);
+	background: #f5f5f5;
+}
+
+.nayami-title {
+	font-size: 20px;
+
+	span {
+		font-size: 36px;
+	}
+}
+
+.nayami-list {
+	li {
+		img {
+			width: 22px;
+			height: 22px;
+			margin-bottom: 5px;
+			margin-right: 14px;
+		}
+	}
+}
+
+.sankaku {
+	position: relative;
+
+	&::before {
+		position: absolute;
+		top: -21px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		font-size: 32px;
+		text-align: center;
+		color: #f5f5f5;
+		content: '▼';
+	}
+}
+
+.man {
+	bottom: 0;
+	left: 0;
+
+	img {
+		width: 91px;
+	}
+}
+
+.woman {
+	right: 0;
+	bottom: 0;
+
+	img {
+		width: 91px;
+	}
+}
+
+.starmessage {
+	z-index: 2;
+}
+
+.bg-naname {
+	// background: url('/img/bg_naname.png') no-repeat;
+}
+
+.cv-title {
+	position: relative;
+	font-size: 20px;
+	color: #fff;
+	background: $orange;
+
+	&::after {
+		position: absolute;
+		right: 0;
+		bottom: -14px;
+		left: 0;
+		margin: auto;
+		font-size: 21px;
+		text-align: center;
+		color: $orange;
+		content: '▼';
+	}
+}
+
+.bg-yellow {
+	background: rgb(255 215 0 / 10%);
+}
+
+.jisseki-title {
+	width: 178px;
+}
+
+.jisseki-item {
+	height: 60px;
+	color: #fff;
+	background: $yellow;
+	border-radius: 60px;
+	min-width: 60px;
+}
+
+.before {
+	position: relative;
+
+	&::after {
+		position: absolute;
+		right: 0;
+		bottom: -18px;
+		left: 0;
+		margin: auto;
+		text-align: center;
+		// content: url('/img/before.png');
+	}
+}
+
+.after {
+	position: relative;
+
+	&::after {
+		position: absolute;
+		right: 0;
+		bottom: -18px;
+		left: 0;
+		margin: auto;
+		text-align: center;
+		// content: url('/img/after.png');
+	}
+}
+
+.price-title {
+	width: 168px;
+}
+
+.service-title {
+	width: 324px;
+}
+
+.num {
+	img {
+		width: 66px;
+		height: 66px;
+		margin-top: -66px;
+	}
+}
+
+.step {
+	// width: calc(100% - 32px);
+	background: #fff;
+}
+
+.n-txt {
+	font-size: 15px;
+	color: $navy;
+}
+
+.voice-title {
+	width: 222px;
+}
+
+.voice {
+	background: #fff;
+
+	// width: calc(100% - 32px);
+	.voice-item {
+		&:first-child {
+			min-width: 104px;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		h3 {
+			font-size: 20px;
+		}
+
+		p {
+			color: $yellow;
+		}
+	}
+}
+
+.qa-title {
+	width: 280px;
+}
+
+.navy {
+	color: $navy;
+	margin-right: 16px;
+}
+
+.accordion-item {
+	border: none;
+}
+
+.accordion-button {
+	background-color: #fff;
+	border-radius: 14px 14px 0 0;
+}
+
+.accordion-body {
+	padding: 1rem;
+	border: 1px solid #fff;
+	border-radius: 0 0 14px 14px;
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+	color: #000;
+}
+
+.company-title {
+	width: 160px;
+}
+
+.form {
+	margin-bottom: 110px;
+}
+
+.company {
+	h3 {
+		font-size: 20px;
+		color: $yellow;
+	}
+
+	p {
+		font-size: 14px;
+		color: #222;
+	}
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	width: 100%;
+	background: #fff;
+	max-width: 430px;
+}
+
+.bg-navy {
+	background: $navy;
+	border: none;
+	padding: 14px 0;
+	&:hover {
+		background: $green;
+	}
+}
+
+.contact-title {
+	width: 240px;
+}
+
+form {
+	background: #fff;
+	border-radius: 14px;
+	.hissu {
+		color: #fff;
+		background: red;
+		font-size: 0.9rem;
+		margin-right: 7px;
+		border-radius: 7px;
+	}
+	label {
+		font-size: 20px;
+	}
+	input,
+	textarea {
+		padding: 9px;
+		background: #f4f3f3;
+		border-radius: 14px;
+		border: 1px solid #cccccc;
+	}
+}
