@@ -11,7 +11,7 @@ const Footer = () => {
 						</a>
 					</div>
 					<div className="p-2">
-						<a href="./contact/">
+						<a href="#contact-cv">
 							<img src="/img/mail_footer.png" alt="" />
 						</a>
 					</div>
